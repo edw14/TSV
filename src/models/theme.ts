@@ -1,5 +1,5 @@
 export class Theme {
-    constructor(name: string) {}
+    constructor(public name: string) {}
 }
 
 export class Rock extends Theme {
